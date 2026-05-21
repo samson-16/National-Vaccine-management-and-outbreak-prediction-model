@@ -1,0 +1,15 @@
+column,description
+woreda,Woreda name from the source data. Harmonize this against boundary p-codes before final modeling.
+period_start,Start date of the month or week used as the training period.
+cases,Observed measles case count in the current woreda-period.
+year,Calendar year of period_start.
+month,Calendar month of period_start.
+iso_week,ISO week of period_start.
+cases_lag_1,Observed cases one period before the current period.
+cases_lag_2,Observed cases two periods before the current period.
+cases_lag_3,Observed cases three periods before the current period.
+cases_rolling_3_prev,Mean observed cases in the previous three periods.
+cases_rolling_6_prev,Mean observed cases in the previous six periods.
+cases_cumulative_prev,Cumulative observed cases before the current period.
+future_cases_h1,Observed cases in the next period. This is a target, not a feature.
+outbreak_next_h1,Binary training target. Default is 1 when future_cases_h1 is at least 5.

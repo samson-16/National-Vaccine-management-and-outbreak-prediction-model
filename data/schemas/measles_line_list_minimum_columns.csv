@@ -1,0 +1,11 @@
+canonical_name,required,accepted_source_names,description
+woreda,yes,"woreda; woreda/hospital; district; admin3; admin3_name","Woreda or district name used for aggregation."
+onset_date,yes,"date onset of disease; date of onset; onset_date; date_onset; disease_onset_date","Preferred date for assigning the case to a week or month."
+case_count,no,"measles_case; measles_cases; cases; case_count","Only needed for aggregate files. Leave empty for line-list files where each row is one case."
+zone,no,"zone; admin2; admin2_name","Useful for quality checks and grouping."
+kebele,no,"kebele","Sub-woreda location for deduplication and descriptive analysis."
+age,no,"age; age_years","Useful for age-stratified features and quality checks."
+sex,no,"sex; gender","Useful for descriptive summaries."
+vaccination_doses,no,"measles vaccination doses; mcv_doses; vaccination_doses","Useful for susceptibility summaries."
+specimen_taken,no,"specimen taken; specimen_status","Useful for confirmed-case filtering."
+outcome,no,"outcome; out_come","Useful for severity/death descriptive summaries."
