@@ -1,0 +1,302 @@
+feature,importance,importance_share,feature_family
+under15_confirmed_cases,0.16811483,0.16811483,other
+suspected_records,0.052383866,0.052383866,other
+line_list_records,0.042062256,0.042062256,other
+ipc_phase3plus_population_high,0.03835431,0.03835431,population
+mcv2_coverage_real_national,0.037895925,0.037895925,immunity_proxy
+epi_linked_cases,0.022828706,0.022828706,other
+year,0.018763268,0.018763268,other
+admin1_region_Somali,0.017060483,0.017060483,region
+mcv1_coverage_real_national,0.016502269,0.016502269,immunity_proxy
+unknown_vaccine_share_confirmed,0.014689796,0.014689796,other
+ipc_phase3plus_population_low,0.013234405,0.013234405,population
+target_cases_rolling_3_prev,0.013164566,0.013164566,lagged_outbreak_signal
+admin2_zone_S Omo,0.011989451,0.011989451,zone
+admin2_zone_Afder,0.011772908,0.011772908,zone
+target_cases_lag_1,0.011543309,0.011543309,lagged_outbreak_signal
+admin1_region_SNNPR,0.010338594,0.010338594,region
+admin2_zone_E Gojjam,0.010178339,0.010178339,zone
+month,0.010149852,0.010149852,other
+admin1_region_South Ethiopia,0.010109408,0.010109408,region
+admin2_zone_W Guji,0.009331078,0.009331078,zone
+unknown_vaccine_confirmed_cases,0.009302366,0.009302366,other
+admin1_region_Tigray,0.009069892,0.009069892,region
+admin1_region_Amhara,0.008779526,0.008779526,region
+admin1_region_Addis Ababa,0.00845718,0.00845718,region
+ipc_phase3plus_population_mid,0.008206143,0.008206143,population
+external_monthly_p90_log_cases,0.008200693,0.008200693,external_prior
+ipc_phase3plus_population_mid_millions,0.007956911,0.007956911,population
+admin2_zone_Kelem Wellega,0.0077901157,0.0077901157,zone
+rainfall_anomaly_proxy,0.0074211517,0.0074211517,climate
+mcv1_mcv2_dropout_real_national,0.0073501784,0.0073501784,immunity_proxy
+admin2_zone_Bole,0.0070902775,0.0070902775,zone
+admin2_zone_Goffa,0.00670012,0.00670012,zone
+admin2_zone_Ale Special Woreda,0.006684553,0.006684553,zone
+population_density_est,0.006600311,0.006600311,population
+admin2_zone_West Omo,0.0065732747,0.0065732747,zone
+admin2_zone_W Gojjam,0.0065420847,0.0065420847,zone
+admin2_zone_Ari,0.006398765,0.006398765,zone
+admin2_zone_Afar 5,0.006292051,0.006292051,zone
+travel_time_healthcare_min_est,0.0061143455,0.0061143455,other
+admin2_zone_Mao-Komo,0.0060784062,0.0060784062,zone
+admin2_zone_Guji,0.0060650012,0.0060650012,zone
+admin2_zone_Guraghe,0.0060436567,0.0060436567,zone
+external_monthly_positive_rate,0.005862054,0.005862054,external_prior
+admin2_zone_Central Gonder,0.005796499,0.005796499,zone
+school_age_population_est,0.005774673,0.005774673,population
+expert_prior_risk_score,0.005699576,0.005699576,other
+under5_population_est,0.005673502,0.005673502,population
+admin2_zone_Gedeo,0.005455875,0.005455875,zone
+mcv1_coverage_est,0.0054418095,0.0054418095,immunity_proxy
+mcv2_coverage_est,0.0054201568,0.0054201568,immunity_proxy
+admin2_zone_Oromiya,0.005419547,0.005419547,zone
+external_monthly_measles_seasonality_index,0.005393266,0.005393266,external_prior
+population_total_est,0.005276912,0.005276912,population
+admin2_zone_C Gonder,0.0052481676,0.0052481676,zone
+susceptible_children_proxy,0.0052378997,0.0052378997,immunity_proxy
+measles_dropout_proxy,0.0052352953,0.0052352953,immunity_proxy
+admin1_region_Oromia,0.005025775,0.005025775,region
+under5_confirmed_cases,0.005001263,0.005001263,other
+admin2_zone_East Hararge,0.0049427594,0.0049427594,zone
+admin2_zone_Buno Bedele,0.00488172,0.00488172,zone
+admin2_zone_Jimma,0.004797857,0.004797857,zone
+admin2_zone_W Harerghe,0.004785924,0.004785924,zone
+admin2_zone_West Wellega,0.004783633,0.004783633,zone
+food_insecurity_phase_proxy,0.004730435,0.004730435,stress_proxy
+admin2_zone_East Harerghe,0.004715924,0.004715924,zone
+admin2_zone_Sidama,0.004711685,0.004711685,zone
+lab_confirmed_cases,0.0047039385,0.0047039385,other
+female_confirmed_cases,0.004703872,0.004703872,other
+admin2_zone_Yeka,0.004643157,0.004643157,zone
+admin2_zone_Shabele,0.004555764,0.004555764,zone
+admin1_region_South West Ethiopia,0.0044824216,0.0044824216,region
+admin2_zone_Southern,0.0043835035,0.0043835035,zone
+admin2_zone_Basketo,0.004244369,0.004244369,zone
+admin2_zone_West Guji,0.004233859,0.004233859,zone
+admin2_zone_W Wellega,0.0042198827,0.0042198827,zone
+admin2_zone_North Shewa,0.004142891,0.004142891,zone
+admin2_zone_Amaro Special Woreda,0.0041344226,0.0041344226,zone
+admin2_zone_GUJI,0.004071459,0.004071459,zone
+admin2_zone_Western,0.004021419,0.004021419,zone
+admin2_zone_East Borena,0.0040091374,0.0040091374,zone
+conflict_events_proxy,0.004009036,0.004009036,stress_proxy
+admin2_zone_Liben,0.0040049762,0.0040049762,zone
+admin2_zone_North Shoa,0.0039541447,0.0039541447,zone
+admin2_zone_North Gonder,0.003922265,0.003922265,zone
+admin2_zone_North Shewa (AM),0.003907306,0.003907306,zone
+admin2_zone_W Shoa,0.0039012814,0.0039012814,zone
+zero_dose_confirmed_cases,0.003824893,0.003824893,other
+admin2_zone_W Arsi,0.0037628615,0.0037628615,zone
+admin2_zone_East Wellega,0.0037249113,0.0037249113,zone
+admin2_zone_Silite,0.0036012635,0.0036012635,zone
+ipc_scenario_priority,0.003572867,0.003572867,other
+admin2_zone_N Shewa,0.0035681434,0.0035681434,zone
+admin2_zone_S Wello,0.0034792123,0.0034792123,zone
+admin2_zone_N Shoa,0.0034302413,0.0034302413,zone
+admin2_zone_E Wellega,0.0034238657,0.0034238657,zone
+admin2_zone_South Omo,0.003400798,0.003400798,zone
+external_monthly_mean_log_cases,0.0033237552,0.0033237552,external_prior
+admin2_zone_Siti,0.0033039264,0.0033039264,zone
+admin2_zone_South Gonder,0.0032613876,0.0032613876,zone
+admin2_zone_Asossa,0.003236417,0.003236417,zone
+admin2_zone_S Gonder,0.0032299766,0.0032299766,zone
+admin2_zone_Finfine Zuria,0.0031995731,0.0031995731,zone
+admin2_zone_Arsi,0.0031527781,0.0031527781,zone
+admin2_zone_Kefa,0.0031284294,0.0031284294,zone
+admin2_zone_Shaggar City,0.0029954966,0.0029954966,zone
+zero_dose_share_confirmed,0.0029581536,0.0029581536,other
+admin2_zone_South West Shewa,0.0029524027,0.0029524027,zone
+admin2_zone_SW Shoa,0.0028177,0.0028177,zone
+target_cases_lag_3,0.0025264497,0.0025264497,lagged_outbreak_signal
+admin2_zone_Kembata Tembaro,0.002513508,0.002513508,zone
+admin1_region_Hareri,0.0021758026,0.0021758026,region
+target_cases_lag_2,0.0017089198,0.0017089198,lagged_outbreak_signal
+admin1_region_Benishangul Gumuz,0.0016779215,0.0016779215,region
+admin2_zone_Bale,0.0015724816,0.0015724816,zone
+discarded_records,0.0015659078,0.0015659078,other
+male_confirmed_cases,0.0008710943,0.0008710943,other
+admin2_zone_Dawa,0.00076294155,0.00076294155,zone
+vaccinated_confirmed_cases,0.0006676701,0.0006676701,other
+admin2_zone_Hareri,0.0005724398,0.0005724398,zone
+admin1_region_Central Ethiopia,0.00018610059,0.00018610059,region
+dry_season_flag,9.327228e-05,9.327228e-05,lagged_outbreak_signal
+case_based_records,1.0525835e-05,1.0525835e-05,other
+admin2_zone_Bahir Dar town,0.0,0.0,zone
+admin2_zone_Bahir Dar City,0.0,0.0,zone
+ipc_phase3plus_real_flag,0.0,0.0,lagged_outbreak_signal
+admin2_zone_Amir Nur,0.0,0.0,zone
+admin2_zone_Ambo town,0.0,0.0,zone
+admin2_zone_Central Tigray,0.0,0.0,zone
+admin2_zone_Central Sidama,0.0,0.0,zone
+admin2_zone_Central Gondar,0.0,0.0,zone
+admin2_zone_Central,0.0,0.0,zone
+admin2_zone_Asosa,0.0,0.0,zone
+admin2_zone_Awi,0.0,0.0,zone
+ipc_phase3plus_pct_population_mid,0.0,0.0,population
+ipc_phase3plus_pct_population_available_flag,0.0,0.0,lagged_outbreak_signal
+admin2_zone_ARADA,0.0,0.0,zone
+admin2_zone_AWI,0.0,0.0,zone
+admin1_region_Sidama,0.0,0.0,region
+admin2_zone_Asela town,0.0,0.0,zone
+admin2_zone_Asela Town,0.0,0.0,zone
+admin2_zone_Arada,0.0,0.0,zone
+admin2_zone_Dukem Town,0.0,0.0,zone
+admin2_zone_E Harerghe,0.0,0.0,zone
+admin2_zone_Bench Sheko,0.0,0.0,zone
+admin2_zone_Batu Town,0.0,0.0,zone
+admin2_zone_Abadir,0.0,0.0,zone
+admin2_zone_Aboker,0.0,0.0,zone
+admin2_zone_Addis Ketema,0.0,0.0,zone
+admin2_zone_Adama Town,0.0,0.0,zone
+admin2_zone_Afar 3,0.0,0.0,zone
+admin2_zone_Afar 4,0.0,0.0,zone
+admin2_zone_Afar 1,0.0,0.0,zone
+admin2_zone_Afar 2,0.0,0.0,zone
+admin2_zone_Agaro town,0.0,0.0,zone
+admin2_zone_Agnua,0.0,0.0,zone
+ipc_phase3plus_imputed_flag,0.0,0.0,lagged_outbreak_signal
+admin2_zone_W Tigray,0.0,0.0,zone
+admin2_zone_Akaki Kality,0.0,0.0,zone
+admin2_zone_Ambo Town,0.0,0.0,zone
+admin2_zone_Waghimra,0.0,0.0,zone
+admin2_zone_WTSH,0.0,0.0,zone
+admin2_zone_Wahil,0.0,0.0,zone
+admin2_zone_Weliso Town,0.0,0.0,zone
+other_final_classification_records,0.0,0.0,other
+admin2_zone_Wag Himra,0.0,0.0,zone
+admin2_zone_West Gojjam,0.0,0.0,zone
+admin2_zone_West Arsi,0.0,0.0,zone
+admin2_zone_West Harerghe,0.0,0.0,zone
+admin1_region_Dire Dawa,0.0,0.0,region
+admin1_region_Gambella,0.0,0.0,region
+admin1_region_Afar,0.0,0.0,region
+admin2_zone_West Gonder,0.0,0.0,zone
+admin2_zone_West Shoa,0.0,0.0,zone
+admin2_zone_East Bale,0.0,0.0,zone
+admin2_zone_East Gojjam,0.0,0.0,zone
+target_outbreak_lag_1,0.0,0.0,lagged_outbreak_signal
+admin2_zone_Erer,0.0,0.0,zone
+admin2_zone_Eastern,0.0,0.0,zone
+admin2_zone_Eastern Sidama,0.0,0.0,zone
+admin2_zone_Eastern Tigray,0.0,0.0,zone
+admin2_zone_East Shoa,0.0,0.0,zone
+admin2_zone_Debretabor City,0.0,0.0,zone
+admin2_zone_Dechatu,0.0,0.0,zone
+admin2_zone_Debre Tabor town,0.0,0.0,zone
+admin2_zone_Debre Markos Town,0.0,0.0,zone
+admin2_zone_Dawro,0.0,0.0,zone
+admin2_zone_Debre Berhan town,0.0,0.0,zone
+admin2_zone_Fafan,0.0,0.0,zone
+admin2_zone_Erer (H),0.0,0.0,zone
+admin2_zone_Dessie town,0.0,0.0,zone
+admin2_zone_Dire Dawa,0.0,0.0,zone
+admin2_zone_Derashe Special Woreda,0.0,0.0,zone
+admin2_zone_Dessie City,0.0,0.0,zone
+admin2_zone_Dire Teyara,0.0,0.0,zone
+admin2_zone_Dollo,0.0,0.0,zone
+admin2_zone_Burji Special Woreda,0.0,0.0,zone
+admin2_zone_Burji,0.0,0.0,zone
+admin2_zone_Burayu Town,0.0,0.0,zone
+admin2_zone_Bule Hora Town,0.0,0.0,zone
+admin2_zone_Borena,0.0,0.0,zone
+admin2_zone_Biyoawale,0.0,0.0,zone
+admin2_zone_Bishoftu town,0.0,0.0,zone
+admin2_zone_Bishoftu Town,0.0,0.0,zone
+admin2_zone_Gardula,0.0,0.0,zone
+admin2_zone_E Shoa,0.0,0.0,zone
+admin2_zone_Lega tafo Town,0.0,0.0,zone
+admin2_zone_Legehare,0.0,0.0,zone
+admin2_zone_Lemi Kura,0.0,0.0,zone
+admin2_zone_Hakim,0.0,0.0,zone
+admin2_zone_Konso,0.0,0.0,zone
+admin2_zone_Kombolcha town,0.0,0.0,zone
+admin2_zone_Konta,0.0,0.0,zone
+admin2_zone_Kore,0.0,0.0,zone
+admin2_zone_Kirkos,0.0,0.0,zone
+admin2_zone_Gamo,0.0,0.0,zone
+admin2_zone_Gambela town,0.0,0.0,zone
+admin2_zone_Gambella,0.0,0.0,zone
+admin2_zone_Gondar Town,0.0,0.0,zone
+admin2_zone_Gondar City,0.0,0.0,zone
+admin2_zone_Gulelle,0.0,0.0,zone
+admin2_zone_Hadiya,0.0,0.0,zone
+admin2_zone_Jimma town,0.0,0.0,zone
+admin2_zone_Jinela,0.0,0.0,zone
+admin2_zone_Jimma Town,0.0,0.0,zone
+admin2_zone_Jeldessa,0.0,0.0,zone
+admin2_zone_Ilu Aba Bora,0.0,0.0,zone
+admin2_zone_Horo Guduru,0.0,0.0,zone
+admin2_zone_Jarar,0.0,0.0,zone
+admin2_zone_Itang Special woreda,0.0,0.0,zone
+admin2_zone_Hawassa City,0.0,0.0,zone
+admin2_zone_Holeta Town,0.0,0.0,zone
+admin2_zone_Halaba,0.0,0.0,zone
+admin2_zone_Hawassa CA,0.0,0.0,zone
+admin2_zone_Gambela Town,0.0,0.0,zone
+admin2_zone_Kebena Sp woreda,0.0,0.0,zone
+admin2_zone_Gende Kore,0.0,0.0,zone
+admin2_zone_Gondar town,0.0,0.0,zone
+admin2_zone_North West Tigray,0.0,0.0,zone
+admin2_zone_North Wello,0.0,0.0,zone
+admin2_zone_Northern Sidama,0.0,0.0,zone
+admin2_zone_North Western,0.0,0.0,zone
+admin2_zone_Lideta,0.0,0.0,zone
+admin2_zone_Mareko Sp woreda,0.0,0.0,zone
+admin2_zone_Mejenger,0.0,0.0,zone
+admin2_zone_Maya City,0.0,0.0,zone
+admin2_zone_Mekelle city,0.0,0.0,zone
+admin2_zone_Melkajebdu,0.0,0.0,zone
+admin2_zone_Mekelle,0.0,0.0,zone
+admin2_zone_Mekelle City,0.0,0.0,zone
+admin2_zone_Metekel,0.0,0.0,zone
+admin2_zone_Metu Town,0.0,0.0,zone
+admin2_zone_Modjo Town,0.0,0.0,zone
+admin2_zone_Misrak Gurage,0.0,0.0,zone
+admin2_zone_Korahe,0.0,0.0,zone
+admin2_zone_Kolfe Keraniyo,0.0,0.0,zone
+admin2_zone_Modjo town,0.0,0.0,zone
+admin2_zone_Mojo Town,0.0,0.0,zone
+admin2_zone_N Gonder,0.0,0.0,zone
+admin2_zone_Kemashi,0.0,0.0,zone
+admin2_zone_Kembata,0.0,0.0,zone
+admin2_zone_Nekemte Town,0.0,0.0,zone
+admin2_zone_Sendafa Town,0.0,0.0,zone
+admin2_zone_Shashemene Town,0.0,0.0,zone
+admin2_zone_Sheka,0.0,0.0,zone
+admin2_zone_Shashemenne Town,0.0,0.0,zone
+admin2_zone_Nifas Silk Lafto,0.0,0.0,zone
+admin2_zone_N Wello,0.0,0.0,zone
+admin2_zone_North Gojjam,0.0,0.0,zone
+admin2_zone_Nogob,0.0,0.0,zone
+admin2_zone_South Wello,0.0,0.0,zone
+admin2_zone_South Tigray,0.0,0.0,zone
+admin2_zone_Southern Sidama,0.0,0.0,zone
+admin2_zone_South West Shoa,0.0,0.0,zone
+admin2_zone_SE Tigray,0.0,0.0,zone
+admin2_zone_S Tigray,0.0,0.0,zone
+admin2_zone_Robe Town,0.0,0.0,zone
+admin2_zone_Nuer,0.0,0.0,zone
+admin2_zone_Sabian,0.0,0.0,zone
+admin2_zone_Nedjo Town,0.0,0.0,zone
+coverage_real_flag,0.0,0.0,lagged_outbreak_signal
+coverage_imputed_flag,0.0,0.0,lagged_outbreak_signal
+admin2_zone_Tembaro Sp woreda,0.0,0.0,zone
+admin2_zone_South Eastern,0.0,0.0,zone
+admin2_zone_W Gonder,0.0,0.0,zone
+admin2_zone_Tenbaro Sp woreda,0.0,0.0,zone
+admin2_zone_Sofi,0.0,0.0,zone
+mcv2_gap_to_95,0.0,0.0,other
+mcv1_gap_to_95,0.0,0.0,other
+admin2_zone_South East Tigray,0.0,0.0,zone
+effective_immunity_gap_real_national,0.0,0.0,other
+admin2_zone_Sululta Town,0.0,0.0,zone
+admin2_zone_Shenkor,0.0,0.0,zone
+admin2_zone_Sheno Town,0.0,0.0,zone
+admin2_zone_Western Tigray,0.0,0.0,zone
+admin2_zone_Wolayta,0.0,0.0,zone
+admin2_zone_Woldia Town,0.0,0.0,zone
+admin2_zone_Woliso town,0.0,0.0,zone
+admin2_zone_YEKA,0.0,0.0,zone
+compatible_cases,0.0,0.0,other
+admin2_zone_Yem,0.0,0.0,zone
+case_fatality_ratio,0.0,0.0,other

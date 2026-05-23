@@ -1,6 +1,6 @@
 {
-  "project": "ethiopia_measles_mvp_dataset",
-  "last_updated": "2026-05-20",
+  "project": "ethiopia_vpd_decision_support_dataset",
+  "last_updated": "2026-05-23",
   "default_build_command": "python scripts/build_measles_mvp_dataset.py --include-external",
   "removable_synthetic_rule": "Filter synthetic_flag == 0, or use data/processed/measles_woreda_month_real_weak_only.csv.",
   "notes": [
@@ -23,6 +23,100 @@
       "format": "Excel",
       "coverage": "Ethiopia, 2025 epi weeks 1-11 in the provided file",
       "notes": "Columns used: region, zone, woreda, year, epi_week, msls, msls_dths."
+    },
+    {
+      "id": "ethiopia_measles_updates_2021_2025",
+      "priority": "required",
+      "training_role": "primary_real_ethiopia_line_list_labels",
+      "source_name": "Ethiopia Measles Update workbooks 2021-2025",
+      "source_url": "C:\\Users\\ASUS\\Downloads\\Measles Update_2021.xlsx; C:\\Users\\ASUS\\Downloads\\Measles Update_2022.xlsx; C:\\Users\\ASUS\\Downloads\\Measles Update_2023.xlsx; C:\\Users\\ASUS\\Downloads\\Measles Update_2024.xlsx; C:\\Users\\ASUS\\Downloads\\Measles Update_2025.xlsx",
+      "access": "provided_project_files",
+      "expected_files": [
+        "data/processed/real_measles_line_list_deidentified.csv",
+        "data/processed/real_measles_woreda_month_labels.csv",
+        "data/processed/measles_training_real_model_matrix.csv"
+      ],
+      "format": "Excel source, CSV processed outputs",
+      "coverage": "Ethiopia case-based and line-list records, 2021-2025",
+      "notes": "Preferred real-only label source. Patient identifiers are removed from processed training outputs."
+    },
+    {
+      "id": "ethiopia_afp_weekly_analysis_2021_2025",
+      "priority": "required_for_polio_surveillance_module",
+      "training_role": "primary_real_ethiopia_afp_surveillance_indicators",
+      "source_name": "Ethiopia AFP Weekly Analysis Linelist workbooks 2021-2025",
+      "source_url": "C:\\Users\\ASUS\\Downloads\\AFP_Weekly analysis_2021.xls; C:\\Users\\ASUS\\Downloads\\AFP_Weekly analysis_2022.xls; C:\\Users\\ASUS\\Downloads\\AFP_Weekly analysis_2023.xls; C:\\Users\\ASUS\\Downloads\\AFP_Weekly analysis_2024.xls; C:\\Users\\ASUS\\Downloads\\AFP_Weekly analysis_2025.xls",
+      "access": "provided_project_files",
+      "expected_files": [
+        "data/processed/polio_afp_woreda_month_features.csv",
+        "data/processed/polio_surveillance_training_matrix.csv",
+        "model_outputs_polio_afp/polio_afp_next_month_predictions.csv",
+        "model_outputs_polio_afp/polio_afp_next_month_surveillance_alerts.csv",
+        "model_outputs_polio_afp/polio_surveillance_evaluation_metrics.json"
+      ],
+      "format": "Excel source, CSV processed outputs",
+      "coverage": "Ethiopia AFP case-level surveillance records, 2021-2025",
+      "notes": "Used for derived AFP surveillance-risk and preparedness alerting, not confirmed polio outbreak labels."
+    },
+    {
+      "id": "who_ethiopia_mcv1_coverage",
+      "priority": "required_covariate",
+      "training_role": "real_national_vaccine_coverage",
+      "source_name": "WHO GHO / WUENIC Ethiopia MCV1 coverage",
+      "source_url": "https://ghoapi.azureedge.net/api/WHS8_110?$filter=SpatialDim%20eq%20%27ETH%27",
+      "access": "public_api",
+      "expected_files": [
+        "data/raw/vaccine/who_ethiopia_mcv1_coverage.csv",
+        "data/processed/ethiopia_vaccine_coverage_annual.csv"
+      ],
+      "format": "OData JSON converted to CSV",
+      "coverage": "Ethiopia national annual MCV1 coverage",
+      "notes": "Used as real national annual vaccine trend; not woreda-level coverage."
+    },
+    {
+      "id": "who_ethiopia_mcv2_coverage",
+      "priority": "required_covariate",
+      "training_role": "real_national_vaccine_coverage",
+      "source_name": "WHO GHO / WUENIC Ethiopia MCV2 coverage",
+      "source_url": "https://ghoapi.azureedge.net/api/MCV2?$filter=SpatialDim%20eq%20%27ETH%27",
+      "access": "public_api",
+      "expected_files": [
+        "data/raw/vaccine/who_ethiopia_mcv2_coverage.csv",
+        "data/processed/ethiopia_vaccine_coverage_annual.csv"
+      ],
+      "format": "OData JSON converted to CSV",
+      "coverage": "Ethiopia national annual MCV2 coverage",
+      "notes": "Used as real national annual vaccine trend; not woreda-level coverage."
+    },
+    {
+      "id": "who_ethiopia_immunization_profile_2024",
+      "priority": "supporting_reference",
+      "training_role": "vaccine_coverage_source_reference",
+      "source_name": "WHO/UNICEF Ethiopia immunization country profile 2024",
+      "source_url": "https://cdn.who.int/media/docs/default-source/country-profiles/immunization/2024-country-profiles/immunization-2024-eth.pdf?download=true&sfvrsn=c37780c9_3",
+      "access": "public_download",
+      "expected_files": [
+        "data/raw/vaccine/who_ethiopia_immunization_profile_2024.pdf"
+      ],
+      "format": "PDF",
+      "coverage": "Ethiopia national immunization coverage profile",
+      "notes": "Used as a citation/source reference and fallback if API coverage files are unavailable."
+    },
+    {
+      "id": "fewsnet_ethiopia_ipc_phase3plus_population",
+      "priority": "recommended_covariate",
+      "training_role": "real_national_food_stress_covariate",
+      "source_name": "FEWS NET Ethiopia IPC Phase 3+ population estimates",
+      "source_url": "https://fdw.fews.net/api/ipcpopulationsize.csv?country_code=ET&phase=3%2B&fields=simple",
+      "access": "public_api",
+      "expected_files": [
+        "data/raw/ipc/fewsnet_ethiopia_ipc_phase3plus_population.csv",
+        "data/processed/ethiopia_ipc_phase3plus_monthly.csv",
+        "data/processed/measles_training_demo_model_matrix_with_vaccine_ipc.csv"
+      ],
+      "format": "CSV",
+      "coverage": "Ethiopia national monthly Phase 3+ food insecurity population estimates",
+      "notes": "Used as real national monthly food-stress covariates. The local IPCPopulation.csv is metadata/catalog-level only."
     },
     {
       "id": "jhu_us_top_states_weekly",
@@ -146,7 +240,7 @@
       "expected_files": [],
       "format": "API/CSV",
       "coverage": "Food security and market indicators",
-      "notes": "Current build uses deterministic food-stress proxies until API extraction is added."
+      "notes": "Implemented for IPC Phase 3+ population via fewsnet_ethiopia_ipc_phase3plus_population; market data remains future work."
     }
   ]
 }

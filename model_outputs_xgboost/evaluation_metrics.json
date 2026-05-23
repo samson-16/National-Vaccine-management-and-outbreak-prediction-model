@@ -1,0 +1,261 @@
+{
+  "model_goal": "Predict next-month Ethiopia woreda measles outbreak risk.",
+  "selected_model": "xgboost",
+  "primary_model_requested": "xgboost",
+  "primary_model_used": "xgboost",
+  "best_validation_model": "random_forest",
+  "selection_policy": "Use the requested primary model when available; keep Random Forest and KNN as comparison models.",
+  "training_mode": "scikit-learn",
+  "decision_threshold": 0.7999999999999999,
+  "input_file": "C:\\Projects\\VMOPS\\data\\processed\\measles_training_real_model_matrix.csv",
+  "external_file": "C:\\Projects\\VMOPS\\data\\processed\\external_measles_normalized_new.csv",
+  "horizon_months": 1,
+  "test_year": 2025,
+  "rows": {
+    "ethiopia_rows_total": 110100,
+    "labelled_rows_for_training_or_testing": 108265,
+    "threshold_fit_rows": 66060,
+    "threshold_validation_rows": 22020,
+    "time_train_rows": 88080,
+    "time_test_rows": 20185,
+    "external_rows_directly_in_training": 0
+  },
+  "defense_outputs": {
+    "top_risk_woredas_latest_rows": 1835,
+    "new_2025_outbreak_locations_rows": 51,
+    "next_month_alert_woredas_rows": 1553
+  },
+  "class_balance": {
+    "train_positive_rate": 0.01444141689373297,
+    "test_positive_rate": 0.007233093881595244
+  },
+  "leakage_columns_excluded": [
+    "target_cases",
+    "target_cases_next_month",
+    "target_deaths",
+    "target_deaths_next_month",
+    "target_outbreak",
+    "target_outbreak_next_month"
+  ],
+  "candidate_metrics": {
+    "logistic_regression": {
+      "validation": {
+        "rows": 22020,
+        "positive_rows": 509,
+        "negative_rows": 21511,
+        "threshold": 0.95,
+        "accuracy": 0.9066757493188011,
+        "precision": 0.12584704743465633,
+        "recall": 0.5108055009823183,
+        "specificity": 0.9160429547673283,
+        "f1": 0.2019417475728155,
+        "f2": 0.31691857630424175,
+        "roc_auc": 0.7424470269197493,
+        "pr_auc": 0.19313882299260415,
+        "confusion_matrix": {
+          "tn": 19705,
+          "fp": 1806,
+          "fn": 249,
+          "tp": 260
+        }
+      },
+      "time_test_2025": {
+        "rows": 20185,
+        "positive_rows": 146,
+        "negative_rows": 20039,
+        "threshold": 0.95,
+        "accuracy": 0.9893485261332673,
+        "precision": 0.3349282296650718,
+        "recall": 0.4794520547945205,
+        "specificity": 0.9930635261240581,
+        "f1": 0.39436619718309857,
+        "f2": 0.44136191677175285,
+        "roc_auc": 0.8764494851477974,
+        "pr_auc": 0.3150304404249418,
+        "confusion_matrix": {
+          "tn": 19900,
+          "fp": 139,
+          "fn": 76,
+          "tp": 70
+        }
+      }
+    },
+    "random_forest": {
+      "validation": {
+        "rows": 22020,
+        "positive_rows": 509,
+        "negative_rows": 21511,
+        "threshold": 0.6799999999999999,
+        "accuracy": 0.9732970027247957,
+        "precision": 0.4474034620505992,
+        "recall": 0.6601178781925344,
+        "specificity": 0.9807075449769885,
+        "f1": 0.5333333333333333,
+        "f2": 0.6027987082884823,
+        "roc_auc": 0.8834281249991438,
+        "pr_auc": 0.4641437337344909,
+        "confusion_matrix": {
+          "tn": 21096,
+          "fp": 415,
+          "fn": 173,
+          "tp": 336
+        }
+      },
+      "time_test_2025": {
+        "rows": 20185,
+        "positive_rows": 146,
+        "negative_rows": 20039,
+        "threshold": 0.6799999999999999,
+        "accuracy": 0.9883081496160515,
+        "precision": 0.3415492957746479,
+        "recall": 0.6643835616438356,
+        "specificity": 0.9906681970158192,
+        "f1": 0.45116279069767445,
+        "f2": 0.5587557603686636,
+        "roc_auc": 0.9130954911894409,
+        "pr_auc": 0.4666289685896413,
+        "confusion_matrix": {
+          "tn": 19852,
+          "fp": 187,
+          "fn": 49,
+          "tp": 97
+        }
+      }
+    },
+    "knn": {
+      "validation": {
+        "rows": 22020,
+        "positive_rows": 509,
+        "negative_rows": 21511,
+        "threshold": 0.31999999999999995,
+        "accuracy": 0.9247048138056313,
+        "precision": 0.109979633401222,
+        "recall": 0.3182711198428291,
+        "specificity": 0.9390544372646553,
+        "f1": 0.16347124117053483,
+        "f2": 0.23083499572527785,
+        "roc_auc": 0.7348822035493514,
+        "pr_auc": 0.12765840615383328,
+        "confusion_matrix": {
+          "tn": 20200,
+          "fp": 1311,
+          "fn": 347,
+          "tp": 162
+        }
+      },
+      "time_test_2025": {
+        "rows": 20185,
+        "positive_rows": 146,
+        "negative_rows": 20039,
+        "threshold": 0.31999999999999995,
+        "accuracy": 0.9663611592766906,
+        "precision": 0.06946688206785137,
+        "recall": 0.2945205479452055,
+        "specificity": 0.9712560507011327,
+        "f1": 0.11241830065359476,
+        "f2": 0.17871986699916875,
+        "roc_auc": 0.824178981123795,
+        "pr_auc": 0.12723647235566182,
+        "confusion_matrix": {
+          "tn": 19463,
+          "fp": 576,
+          "fn": 103,
+          "tp": 43
+        }
+      }
+    },
+    "xgboost": {
+      "validation": {
+        "rows": 22020,
+        "positive_rows": 509,
+        "negative_rows": 21511,
+        "threshold": 0.7999999999999999,
+        "accuracy": 0.9565849227974569,
+        "precision": 0.27401415571284127,
+        "recall": 0.5324165029469549,
+        "specificity": 0.9666217284180186,
+        "f1": 0.3618157543391189,
+        "f2": 0.44793388429752073,
+        "roc_auc": 0.8606695856891969,
+        "pr_auc": 0.25192533711012366,
+        "confusion_matrix": {
+          "tn": 20793,
+          "fp": 718,
+          "fn": 238,
+          "tp": 271
+        }
+      },
+      "time_test_2025": {
+        "rows": 20185,
+        "positive_rows": 146,
+        "negative_rows": 20039,
+        "threshold": 0.7999999999999999,
+        "accuracy": 0.9883081496160515,
+        "precision": 0.3404255319148936,
+        "recall": 0.6575342465753424,
+        "specificity": 0.9907180997055741,
+        "f1": 0.44859813084112143,
+        "f2": 0.554272517321016,
+        "roc_auc": 0.9139964739989896,
+        "pr_auc": 0.3974258638272775,
+        "confusion_matrix": {
+          "tn": 19853,
+          "fp": 186,
+          "fn": 50,
+          "tp": 96
+        }
+      }
+    }
+  },
+  "selected_time_test_2025": {
+    "rows": 20185,
+    "positive_rows": 146,
+    "negative_rows": 20039,
+    "threshold": 0.7999999999999999,
+    "accuracy": 0.9883081496160515,
+    "precision": 0.3404255319148936,
+    "recall": 0.6575342465753424,
+    "specificity": 0.9907180997055741,
+    "f1": 0.44859813084112143,
+    "f2": 0.554272517321016,
+    "roc_auc": 0.9139964739989896,
+    "pr_auc": 0.3974258638272775,
+    "confusion_matrix": {
+      "tn": 19853,
+      "fp": 186,
+      "fn": 50,
+      "tp": 96
+    }
+  },
+  "selected_stratified_demo_validation": {
+    "rows": 21653,
+    "positive_rows": 284,
+    "negative_rows": 21369,
+    "threshold": 0.8499999999999999,
+    "accuracy": 0.9835126772271741,
+    "precision": 0.4071246819338422,
+    "recall": 0.5633802816901409,
+    "specificity": 0.9890963545322664,
+    "f1": 0.4726735598227474,
+    "f2": 0.5232177894048398,
+    "roc_auc": 0.9268996684021015,
+    "pr_auc": 0.3957385201568923,
+    "confusion_matrix": {
+      "tn": 21136,
+      "fp": 233,
+      "fn": 124,
+      "tp": 160
+    }
+  },
+  "external_patterns": {
+    "external_path": "C:\\Projects\\VMOPS\\data\\processed\\external_measles_normalized_new.csv",
+    "external_rows": 20345,
+    "external_monthly_rows_used": 2328,
+    "external_locations_used": 316
+  },
+  "notes": [
+    "External country rows are summarized into priors only; they are not Ethiopia labels.",
+    "Current target_cases, target_deaths, and target_outbreak are excluded from features.",
+    "Lagged target features are allowed because they represent previous-month surveillance signals."
+  ]
+}

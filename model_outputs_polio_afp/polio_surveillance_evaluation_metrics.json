@@ -1,0 +1,290 @@
+{
+  "model_goal": "Predict next-month AFP surveillance-risk and preparedness alert signals.",
+  "input_file": "C:\\Projects\\VMOPS\\data\\processed\\polio_afp_woreda_month_features.csv",
+  "training_matrix": "C:\\Projects\\VMOPS\\data\\processed\\polio_surveillance_training_matrix.csv",
+  "output_dir": "C:\\Projects\\VMOPS\\model_outputs_polio_afp",
+  "split_policy": {
+    "train_calibration_prediction_years": "2021-2023",
+    "validation_prediction_year": 2024,
+    "test_demo_prediction_year": 2025
+  },
+  "rows": {
+    "input_rows": 7045,
+    "labelled_rows_all_targets": 1341,
+    "train_rows": 3862,
+    "validation_rows": 1419,
+    "test_rows": 1566,
+    "latest_prediction_rows": 198
+  },
+  "target_positive_rates": {
+    "high_surveillance_risk": {
+      "train": 0.007052186177715092,
+      "validation": 0.01048951048951049,
+      "test": 0.005780346820809248
+    },
+    "poor_stool_adequacy": {
+      "train": 0.08321579689703808,
+      "validation": 0.08391608391608392,
+      "test": 0.06069364161849711
+    },
+    "delayed_reporting": {
+      "train": 0.6459802538787024,
+      "validation": 0.6678321678321678,
+      "test": 0.6184971098265896
+    },
+    "under_vaccinated_afp": {
+      "train": 0.1622002820874471,
+      "validation": 0.22727272727272727,
+      "test": 0.3352601156069364
+    },
+    "suspected_poliovirus": {
+      "train": 0.03526093088857546,
+      "validation": 0.11538461538461539,
+      "test": 0.1416184971098266
+    }
+  },
+  "thresholds": {
+    "target_high_surveillance_risk_next_month": 0.05,
+    "target_poor_stool_adequacy_next_month": 0.05,
+    "target_delayed_reporting_next_month": 0.05,
+    "target_under_vaccinated_afp_signal_next_month": 0.05,
+    "target_suspected_poliovirus_signal_next_month": 0.05
+  },
+  "target_metrics": {
+    "high_surveillance_risk": {
+      "target_column": "target_high_surveillance_risk_next_month",
+      "validation": {
+        "rows": 286,
+        "positive_rows": 3,
+        "negative_rows": 283,
+        "threshold": 0.05,
+        "accuracy": 0.9230769230769231,
+        "precision": 0.0,
+        "recall": 0.0,
+        "specificity": 0.9328621908127208,
+        "f1": 0.0,
+        "f2": 0.0,
+        "roc_auc": 0.6925795053003534,
+        "pr_auc": 0.04067968416559965,
+        "confusion_matrix": {
+          "tn": 264,
+          "fp": 19,
+          "fn": 3,
+          "tp": 0
+        }
+      },
+      "test_2025": {
+        "rows": 346,
+        "positive_rows": 2,
+        "negative_rows": 344,
+        "threshold": 0.05,
+        "accuracy": 0.9479768786127167,
+        "precision": 0.0,
+        "recall": 0.0,
+        "specificity": 0.9534883720930233,
+        "f1": 0.0,
+        "f2": 0.0,
+        "roc_auc": 0.42441860465116277,
+        "pr_auc": 0.008383838383838384,
+        "confusion_matrix": {
+          "tn": 328,
+          "fp": 16,
+          "fn": 2,
+          "tp": 0
+        }
+      }
+    },
+    "poor_stool_adequacy": {
+      "target_column": "target_poor_stool_adequacy_next_month",
+      "validation": {
+        "rows": 286,
+        "positive_rows": 24,
+        "negative_rows": 262,
+        "threshold": 0.05,
+        "accuracy": 0.12937062937062938,
+        "precision": 0.07224334600760456,
+        "recall": 0.7916666666666666,
+        "specificity": 0.06870229007633588,
+        "f1": 0.13240418118466898,
+        "f2": 0.2646239554317549,
+        "roc_auc": 0.4166666666666667,
+        "pr_auc": 0.07479274753412402,
+        "confusion_matrix": {
+          "tn": 18,
+          "fp": 244,
+          "fn": 5,
+          "tp": 19
+        }
+      },
+      "test_2025": {
+        "rows": 346,
+        "positive_rows": 21,
+        "negative_rows": 325,
+        "threshold": 0.05,
+        "accuracy": 0.11560693641618497,
+        "precision": 0.06422018348623854,
+        "recall": 1.0,
+        "specificity": 0.05846153846153846,
+        "f1": 0.1206896551724138,
+        "f2": 0.25547445255474455,
+        "roc_auc": 0.5183150183150184,
+        "pr_auc": 0.06571275182161117,
+        "confusion_matrix": {
+          "tn": 19,
+          "fp": 306,
+          "fn": 0,
+          "tp": 21
+        }
+      }
+    },
+    "delayed_reporting": {
+      "target_column": "target_delayed_reporting_next_month",
+      "validation": {
+        "rows": 286,
+        "positive_rows": 191,
+        "negative_rows": 95,
+        "threshold": 0.05,
+        "accuracy": 0.6678321678321678,
+        "precision": 0.6678321678321678,
+        "recall": 1.0,
+        "specificity": 0.0,
+        "f1": 0.80083857442348,
+        "f2": 0.9095238095238095,
+        "roc_auc": 0.5359878754477817,
+        "pr_auc": 0.6958657064336442,
+        "confusion_matrix": {
+          "tn": 0,
+          "fp": 95,
+          "fn": 0,
+          "tp": 191
+        }
+      },
+      "test_2025": {
+        "rows": 346,
+        "positive_rows": 214,
+        "negative_rows": 132,
+        "threshold": 0.05,
+        "accuracy": 0.6184971098265896,
+        "precision": 0.6184971098265896,
+        "recall": 1.0,
+        "specificity": 0.0,
+        "f1": 0.7642857142857142,
+        "f2": 0.8901830282861897,
+        "roc_auc": 0.6235839705465873,
+        "pr_auc": 0.7259060342407487,
+        "confusion_matrix": {
+          "tn": 0,
+          "fp": 132,
+          "fn": 0,
+          "tp": 214
+        }
+      }
+    },
+    "under_vaccinated_afp": {
+      "target_column": "target_under_vaccinated_afp_signal_next_month",
+      "validation": {
+        "rows": 286,
+        "positive_rows": 65,
+        "negative_rows": 221,
+        "threshold": 0.05,
+        "accuracy": 0.22727272727272727,
+        "precision": 0.22727272727272727,
+        "recall": 1.0,
+        "specificity": 0.0,
+        "f1": 0.37037037037037035,
+        "f2": 0.5952380952380951,
+        "roc_auc": 0.6081447963800904,
+        "pr_auc": 0.33735568595994,
+        "confusion_matrix": {
+          "tn": 0,
+          "fp": 221,
+          "fn": 0,
+          "tp": 65
+        }
+      },
+      "test_2025": {
+        "rows": 346,
+        "positive_rows": 116,
+        "negative_rows": 230,
+        "threshold": 0.05,
+        "accuracy": 0.3352601156069364,
+        "precision": 0.3352601156069364,
+        "recall": 1.0,
+        "specificity": 0.0,
+        "f1": 0.5021645021645021,
+        "f2": 0.7160493827160495,
+        "roc_auc": 0.47672413793103446,
+        "pr_auc": 0.32249665397966987,
+        "confusion_matrix": {
+          "tn": 0,
+          "fp": 230,
+          "fn": 0,
+          "tp": 116
+        }
+      }
+    },
+    "suspected_poliovirus": {
+      "target_column": "target_suspected_poliovirus_signal_next_month",
+      "validation": {
+        "rows": 286,
+        "positive_rows": 33,
+        "negative_rows": 253,
+        "threshold": 0.05,
+        "accuracy": 0.35664335664335667,
+        "precision": 0.08287292817679558,
+        "recall": 0.45454545454545453,
+        "specificity": 0.3438735177865613,
+        "f1": 0.14018691588785046,
+        "f2": 0.23961661341853036,
+        "roc_auc": 0.3946580428793868,
+        "pr_auc": 0.09380997877492894,
+        "confusion_matrix": {
+          "tn": 87,
+          "fp": 166,
+          "fn": 18,
+          "tp": 15
+        }
+      },
+      "test_2025": {
+        "rows": 346,
+        "positive_rows": 49,
+        "negative_rows": 297,
+        "threshold": 0.05,
+        "accuracy": 0.44508670520231214,
+        "precision": 0.16113744075829384,
+        "recall": 0.6938775510204082,
+        "specificity": 0.40404040404040403,
+        "f1": 0.26153846153846155,
+        "f2": 0.4176904176904177,
+        "roc_auc": 0.5798460798460798,
+        "pr_auc": 0.17775531350247206,
+        "confusion_matrix": {
+          "tn": 120,
+          "fp": 177,
+          "fn": 15,
+          "tp": 34
+        }
+      }
+    }
+  },
+  "outputs": {
+    "latest_alert_rows": 198,
+    "zone_watch_rows": 0,
+    "recommendation_rows": 198,
+    "paths": {
+      "training_matrix": "C:\\Projects\\VMOPS\\data\\processed\\polio_surveillance_training_matrix.csv",
+      "predictions": "C:\\Projects\\VMOPS\\model_outputs_polio_afp\\polio_afp_next_month_predictions.csv",
+      "alerts": "C:\\Projects\\VMOPS\\model_outputs_polio_afp\\polio_afp_next_month_surveillance_alerts.csv",
+      "zone_watch": "C:\\Projects\\VMOPS\\model_outputs_polio_afp\\polio_afp_zone_watch_alerts.csv",
+      "signal_trends": "C:\\Projects\\VMOPS\\model_outputs_polio_afp\\polio_afp_signal_trends.csv",
+      "recommendations": "C:\\Projects\\VMOPS\\model_outputs_polio_afp\\polio_afp_preparedness_recommendations.csv",
+      "model_comparison": "C:\\Projects\\VMOPS\\model_outputs_polio_afp\\polio_surveillance_model_comparison.csv",
+      "feature_importance": "C:\\Projects\\VMOPS\\model_outputs_polio_afp\\polio_surveillance_feature_importance.csv",
+      "confusion_matrix": "C:\\Projects\\VMOPS\\model_outputs_polio_afp\\polio_surveillance_confusion_matrix.csv",
+      "artifact": "C:\\Projects\\VMOPS\\model_outputs_polio_afp\\polio_surveillance_model_artifact.joblib",
+      "metrics": "C:\\Projects\\VMOPS\\model_outputs_polio_afp\\polio_surveillance_evaluation_metrics.json",
+      "report": "C:\\Projects\\VMOPS\\reports\\polio_surveillance_training_report.md"
+    }
+  },
+  "limitation": "Derived AFP surveillance-risk model; not a confirmed polio outbreak prediction model."
+}

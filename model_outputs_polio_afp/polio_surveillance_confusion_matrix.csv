@@ -1,0 +1,11 @@
+target_name,target_column,split,actual_0_predicted_0,actual_0_predicted_1,actual_1_predicted_0,actual_1_predicted_1,threshold
+high_surveillance_risk,target_high_surveillance_risk_next_month,validation_2024,264,19,3,0,0.05
+high_surveillance_risk,target_high_surveillance_risk_next_month,test_2025,328,16,2,0,0.05
+poor_stool_adequacy,target_poor_stool_adequacy_next_month,validation_2024,18,244,5,19,0.05
+poor_stool_adequacy,target_poor_stool_adequacy_next_month,test_2025,19,306,0,21,0.05
+delayed_reporting,target_delayed_reporting_next_month,validation_2024,0,95,0,191,0.05
+delayed_reporting,target_delayed_reporting_next_month,test_2025,0,132,0,214,0.05
+under_vaccinated_afp,target_under_vaccinated_afp_signal_next_month,validation_2024,0,221,0,65,0.05
+under_vaccinated_afp,target_under_vaccinated_afp_signal_next_month,test_2025,0,230,0,116,0.05
+suspected_poliovirus,target_suspected_poliovirus_signal_next_month,validation_2024,87,166,18,15,0.05
+suspected_poliovirus,target_suspected_poliovirus_signal_next_month,test_2025,120,177,15,34,0.05

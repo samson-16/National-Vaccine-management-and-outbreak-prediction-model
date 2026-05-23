@@ -1,0 +1,58 @@
+pattern_scope,month,metric,value,n_rows,notes
+month,1.0,external_monthly_measles_seasonality_index,0.7026421179737239,214,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,1.0,external_monthly_positive_rate,0.822429906542056,214,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,1.0,external_monthly_mean_log_cases,2.3087027884687408,214,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,1.0,external_monthly_p90_log_cases,5.326114085583729,214,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,2.0,external_monthly_measles_seasonality_index,1.0,236,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,2.0,external_monthly_positive_rate,0.8601694915254238,236,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,2.0,external_monthly_mean_log_cases,2.506263048077171,236,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,2.0,external_monthly_p90_log_cases,5.310492911979952,236,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,3.0,external_monthly_measles_seasonality_index,0.8871168279658093,265,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,3.0,external_monthly_positive_rate,0.8754716981132076,265,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,3.0,external_monthly_mean_log_cases,2.431265107479359,265,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,3.0,external_monthly_p90_log_cases,5.425151610630804,265,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,4.0,external_monthly_measles_seasonality_index,0.4738873157629461,265,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,4.0,external_monthly_positive_rate,0.8754716981132076,265,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,4.0,external_monthly_mean_log_cases,2.1567214190714337,265,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,4.0,external_monthly_p90_log_cases,4.975301825128964,265,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,5.0,external_monthly_measles_seasonality_index,0.48422800674728494,228,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,5.0,external_monthly_positive_rate,0.8771929824561403,228,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,5.0,external_monthly_mean_log_cases,2.163591624029431,228,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,5.0,external_monthly_p90_log_cases,4.670631305503967,228,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,6.0,external_monthly_measles_seasonality_index,0.3891756092533098,189,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,6.0,external_monthly_positive_rate,0.8624338624338624,189,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,6.0,external_monthly_mean_log_cases,2.100440191158874,189,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,6.0,external_monthly_p90_log_cases,4.75344405124701,189,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,7.0,external_monthly_measles_seasonality_index,0.20445060657206712,169,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,7.0,external_monthly_positive_rate,0.8284023668639053,169,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,7.0,external_monthly_mean_log_cases,1.9777115813194703,169,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,7.0,external_monthly_p90_log_cases,3.9997974908183305,169,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,8.0,external_monthly_measles_seasonality_index,0.0,161,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,8.0,external_monthly_positive_rate,0.8136645962732919,161,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,8.0,external_monthly_mean_log_cases,1.8418775666424712,161,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,8.0,external_monthly_p90_log_cases,3.871201010907891,161,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,9.0,external_monthly_measles_seasonality_index,0.1288748186797782,148,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,9.0,external_monthly_positive_rate,0.7635135135135135,148,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,9.0,external_monthly_mean_log_cases,1.9275001250958452,148,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,9.0,external_monthly_p90_log_cases,3.9512437185814275,148,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,10.0,external_monthly_measles_seasonality_index,0.2555784851942124,153,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,10.0,external_monthly_positive_rate,0.8104575163398693,153,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,10.0,external_monthly_mean_log_cases,2.011680201572579,153,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,10.0,external_monthly_p90_log_cases,4.082757474049075,153,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,11.0,external_monthly_measles_seasonality_index,0.5149976698114387,147,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,11.0,external_monthly_positive_rate,0.8163265306122449,147,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,11.0,external_monthly_mean_log_cases,2.1840345414378923,147,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,11.0,external_monthly_p90_log_cases,4.475807992213991,147,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,12.0,external_monthly_measles_seasonality_index,0.2864096681907556,153,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,12.0,external_monthly_positive_rate,0.8562091503267973,153,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,12.0,external_monthly_mean_log_cases,2.032163991930939,153,Derived from public non-Ethiopian measles rows; used as support priors only.
+month,12.0,external_monthly_p90_log_cases,4.256965202552505,153,Derived from public non-Ethiopian measles rows; used as support priors only.
+global,,external_rows_available,20345.0,2328,External pattern summary; not an Ethiopia ground-truth label.
+global,,external_monthly_rows_used,2328.0,2328,External pattern summary; not an Ethiopia ground-truth label.
+global,,external_locations_used,316.0,2328,External pattern summary; not an Ethiopia ground-truth label.
+global,,outbreak_persistence_probability,0.9419939577039275,2328,External pattern summary; not an Ethiopia ground-truth label.
+global,,median_positive_run_months,2.0,2328,External pattern summary; not an Ethiopia ground-truth label.
+global,,p90_positive_run_months,7.0,2328,External pattern summary; not an Ethiopia ground-truth label.
+global,,median_spike_ratio,1.0,2328,External pattern summary; not an Ethiopia ground-truth label.
+global,,median_positive_growth_ratio,1.0,2328,External pattern summary; not an Ethiopia ground-truth label.
+global,,median_decay_ratio,0.46854418867214453,2328,External pattern summary; not an Ethiopia ground-truth label.

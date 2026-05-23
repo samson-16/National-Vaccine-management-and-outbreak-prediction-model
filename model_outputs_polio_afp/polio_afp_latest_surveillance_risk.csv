@@ -1,0 +1,199 @@
+period_start,admin1_region,admin2_zone,admin3_woreda,location_id,afp_cases,under15_afp_cases,under_vaccinated_afp_cases,adequate_stool_count,adequate_stool_rate,timely_notification_rate,timely_investigation_rate,timely_lab_result_rate,median_notification_delay_days,median_investigation_delay_days,median_lab_result_delay_days,np_afp_count,lab_negative_count,npent_count,suspected_poliovirus_lab_result_count,explicit_polio_positive_lab_result_count,afp_surveillance_quality_score,polio_surveillance_risk_score,risk_bucket
+2025-12-01,Amhara,North Shewa (AM),Kuyu,ETH:94d038cb90c1,1,1,1,0,0.0,0.0,0.0,1.0,9.0,7.0,13.0,0,0,0,1,0,15.0,57.37,high
+2025-12-01,Oromia,Arsi,SHIRKA,ETH:ET040814,2,2,2,0,0.0,0.5,0.0,0.5,4.0,7.0,14.5,0,2,0,0,0,27.5,54.82,high
+2025-12-01,Oromia,Arsi,AMIGNA,ETH:ET040810,1,1,1,0,0.0,0.0,0.0,1.0,,,13.0,0,1,0,0,0,15.0,48.87,moderate
+2025-12-01,Amhara,West Gojjam,Dega Damot,ETH:32cb9f4df492,1,1,0,0,0.0,0.0,0.0,0.0,,,49.0,0,1,0,0,0,10.0,37.2,moderate
+2025-12-01,Oromia,East Hararge,Keresa,ETH:e4d1a965debc,4,4,3,4,1.0,0.25,1.0,0.0,10.5,0.0,43.0,4,3,0,1,0,60.0,36.89,moderate
+2025-12-01,Benishangul Gumuz,Metekel,Mandura,ETH:ET060204,1,1,1,1,1.0,0.0,0.0,0.0,10.0,-2.0,43.0,1,0,0,1,0,35.0,36.42,moderate
+2025-12-01,South Ethiopia,Wolayita,Ofa,ETH:ET080107,1,1,0,0,0.0,0.0,0.0,0.0,,,43.0,0,1,0,0,0,10.0,35.77,moderate
+2025-12-01,Amhara,South Wolo,Kallu,ETH:86ad31c200fc,2,2,0,0,0.0,0.0,1.0,1.0,13.0,0.0,12.0,1,2,0,0,0,45.0,35.42,moderate
+2025-12-01,South Ethiopia,Gamo,Kemba Zuria,ETH:ET080215,3,3,3,3,1.0,1.0,1.0,0.6666666666666666,4.0,0.0,14.0,3,1,0,2,0,85.0,34.74,moderate
+2025-12-01,Amhara,North Wollo,Gubalafto,ETH:c16dca6d0dd0,1,1,0,0,0.0,0.0,0.0,0.0,10.0,6.0,16.0,0,1,0,0,0,10.0,34.34,moderate
+2025-12-01,Amhara,South Gonder,Woreta,ETH:444dd210a191,1,1,0,0,0.0,0.0,1.0,1.0,14.0,1.0,11.0,0,1,0,0,0,45.0,33.87,moderate
+2025-12-01,Amhara,South Wolo,Kutaber,ETH:2a1e0da17b98,1,1,1,1,1.0,0.0,1.0,0.0,11.0,0.0,43.0,1,1,0,0,0,55.0,33.63,moderate
+2025-12-01,Amhara,North Shewa (AM),Eferata,ETH:5780745a4af6,2,2,0,0,0.0,0.5,1.0,0.0,10.0,1.0,15.0,2,2,0,0,0,40.0,33.51,moderate
+2025-12-01,Tigray,North Western,Asgede,ETH:ET010105,1,1,0,0,0.0,0.0,0.0,0.0,12.0,3.0,15.0,1,1,0,0,0,10.0,33.39,moderate
+2025-12-01,Benishangul Gumuz,Assosa,Abrahamo,ETH:c51c5a63cfaa,1,1,0,0,0.0,0.0,1.0,0.0,13.0,0.0,15.0,1,1,0,0,0,30.0,33.39,moderate
+2025-12-01,Oromia,West Wellega,Nedjo Rural,ETH:1062041c28ed,2,2,0,0,0.0,0.5,1.0,1.0,10.0,0.5,12.5,1,1,1,0,0,50.0,33.27,moderate
+2025-12-01,Oromia,West Shewa,Chelia,ETH:9706446bf9ce,1,1,0,0,0.0,0.0,1.0,1.0,13.0,1.0,11.0,1,1,0,0,0,45.0,33.15,moderate
+2025-12-01,Amhara,South Gonder,Estie,ETH:0e95aa067a47,1,1,0,0,0.0,0.0,0.0,0.0,9.0,4.0,16.0,1,1,0,0,0,10.0,32.2,moderate
+2025-12-01,Oromia,West Wellega,Gimbi Rural,ETH:1022f7d1c962,1,1,1,1,1.0,0.0,0.0,0.0,,,48.0,1,1,0,0,0,35.0,31.96,moderate
+2025-12-01,Amhara,North Wollo,Lalibela Town,ETH:866b461f24b0,1,1,1,1,1.0,0.0,1.0,0.0,8.0,1.0,43.0,1,1,0,0,0,55.0,31.49,moderate
+2025-12-01,Oromia,East Wellega,Kiremu,ETH:ET040217,1,1,1,1,1.0,1.0,1.0,0.0,4.0,0.0,46.0,1,1,0,0,0,75.0,31.49,moderate
+2025-12-01,Central Ethiopia,Kembata,Durame Town,ETH:ET070308,1,1,1,1,1.0,1.0,1.0,0.0,7.0,0.0,46.0,1,1,0,0,0,75.0,31.49,moderate
+2025-12-01,South Ethiopia,Wolayita,Sodo Town,ETH:ET080113,1,1,1,1,1.0,1.0,0.0,0.0,4.0,-1.0,46.0,1,1,0,0,0,55.0,31.49,moderate
+2025-12-01,Amhara,North Shewa (AM),Kewote,ETH:1c4a583c5d6f,1,1,1,1,1.0,1.0,1.0,0.0,1.0,0.0,43.0,1,1,0,0,0,75.0,30.77,moderate
+2025-12-01,Oromia,South West Shewa,Ameya,ETH:ET041301,1,1,1,1,1.0,0.0,0.0,0.0,,,43.0,1,1,0,0,0,35.0,30.77,moderate
+2025-12-01,Tigray,Central Tigray,Rama,ETH:7f228152a195,1,1,0,0,0.0,0.0,1.0,1.0,9.0,1.0,13.0,0,1,0,0,0,35.0,30.3,moderate
+2025-12-01,Oromia,Arsi,ROBE,ETH:ET040812,1,1,0,0,0.0,0.0,1.0,1.0,9.0,2.0,11.0,0,1,0,0,0,45.0,30.3,moderate
+2025-12-01,Oromia,Guji,Bore,ETH:ET041402,2,2,0,1,0.5,0.0,0.5,0.0,12.0,2.0,48.0,2,2,0,0,0,32.5,30.3,moderate
+2025-12-01,Oromia,Arsi,ZEWAY DUGDA,ETH:58474baf1627,2,2,1,1,0.5,0.5,0.0,1.0,0.0,4.0,14.0,2,2,0,0,0,47.5,30.06,moderate
+2025-12-01,Tigray,Eastern Tigray,Subhasaesie,ETH:e81816daa521,1,1,0,0,0.0,0.0,1.0,0.0,8.0,0.0,16.0,1,1,0,0,0,30.0,30.06,moderate
+2025-12-01,Amhara,South Gonder,Andabet,ETH:53bcd8740981,1,1,1,1,1.0,1.0,1.0,0.0,1.0,1.0,25.0,1,0,0,1,0,75.0,29.99,moderate
+2025-12-01,Oromia,West Arsi,Shalla,ETH:7d431fa7828a,2,1,2,2,1.0,1.0,1.0,0.5,1.5,0.0,30.0,2,2,0,0,0,82.5,29.94,moderate
+2025-12-01,Oromia,KELEM,Dale Wabera,ETH:a1387925c12d,1,1,0,0,0.0,0.0,0.0,0.0,,,18.0,1,1,0,0,0,10.0,29.82,moderate
+2025-12-01,Oromia,East Bale,Dawa Kechan,ETH:06e297f92446,2,2,2,2,1.0,0.5,0.5,1.0,4.0,1.0,12.0,2,1,0,1,0,70.0,29.63,moderate
+2025-12-01,Sidama,North Sidama,Melga,ETH:fb65c9af9274,2,2,2,2,1.0,0.5,0.5,1.0,5.0,1.0,13.0,2,1,0,1,0,70.0,29.63,moderate
+2025-12-01,Amhara,North Wollo,Kobo Town,ETH:05fde8684fe4,1,1,0,0,0.0,1.0,1.0,0.0,5.0,0.0,16.0,0,1,0,0,0,40.0,29.34,moderate
+2025-12-01,Oromia,Shagar City,Mana Abuchu,ETH:828c2bb1e812,3,1,3,3,1.0,0.0,1.0,1.0,9.0,1.0,12.0,3,3,0,0,0,70.0,29.17,moderate
+2025-12-01,Sidama,Southern Sidama,Dara Otilcho,ETH:0dd798ea213e,1,1,0,0,0.0,0.0,0.0,0.0,,,15.0,0,1,0,0,0,10.0,29.11,moderate
+2025-12-01,Amhara,North Wollo,Lasta,ETH:717a41aeef77,2,2,1,1,0.5,0.5,1.0,0.5,7.0,1.0,15.0,1,2,0,0,0,55.0,28.87,moderate
+2025-12-01,Oromia,East Borena,Gumi Eldalo,ETH:73eaa3b43c48,1,1,1,1,1.0,1.0,1.0,0.0,7.0,0.0,35.0,1,1,0,0,0,75.0,28.87,moderate
+2025-12-01,Amhara,Wag Himra,Dehana,ETH:f9a36c3ca851,1,1,1,1,1.0,0.0,1.0,0.0,8.0,1.0,27.0,1,1,0,0,0,55.0,27.68,moderate
+2025-12-01,Tigray,North Western,Laelay Koraro,ETH:ET010109,1,1,1,1,1.0,0.0,0.0,0.0,,,15.0,1,0,0,1,0,35.0,27.61,moderate
+2025-12-01,Amhara,South Gonder,Fogera,ETH:22f3c52f07d1,1,1,1,1,1.0,0.0,1.0,1.0,12.0,0.0,14.0,1,1,0,0,0,70.0,27.44,moderate
+2025-12-01,Oromia,West Shewa,Ejersa Lafo,ETH:ET040590,1,0,1,1,1.0,1.0,1.0,1.0,6.0,0.0,14.0,1,0,0,1,0,90.0,27.37,moderate
+2025-12-01,Tigray,Southern,E/Alaje,ETH:a79e744a07ec,1,1,1,1,1.0,1.0,1.0,1.0,0.0,0.0,13.0,1,0,0,1,0,90.0,27.37,moderate
+2025-12-01,Oromia,West Hararge,Tulo WorHO,ETH:efc1888613b8,1,1,1,1,1.0,1.0,1.0,1.0,3.0,1.0,7.0,1,0,0,1,0,90.0,27.37,moderate
+2025-12-01,Oromia,East Hararge,Dadar,ETH:d8f775650b15,1,1,1,1,1.0,1.0,1.0,0.0,5.0,1.0,28.0,1,1,0,0,0,75.0,27.2,moderate
+2025-12-01,Sidama,Southern Sidama,Teticha,ETH:200e02d8876e,1,1,1,1,1.0,0.0,1.0,0.0,9.0,0.0,18.0,1,1,0,0,0,55.0,26.25,moderate
+2025-12-01,South Ethiopia,Wolayita,Damot Sore,ETH:ET080109,2,2,2,2,1.0,1.0,1.0,0.5,6.5,0.0,14.5,2,1,1,0,0,82.5,26.25,moderate
+2025-12-01,South West Ethiopia,West Omo,Menit goldia WorHO,ETH:0df65e65f5a1,2,2,2,2,1.0,0.5,1.0,1.0,7.0,0.5,12.0,2,2,0,0,0,80.0,26.13,moderate
+2025-12-01,Oromia,Arsi,JEJU,ETH:ET040804,2,2,2,2,1.0,0.0,0.0,1.0,,,13.0,2,2,0,0,0,50.0,26.13,moderate
+2025-12-01,Oromia,East Hararge,Fadis,ETH:e85802f33065,2,2,2,2,1.0,1.0,1.0,0.5,5.5,0.5,13.0,2,2,0,0,0,82.5,26.13,moderate
+2025-12-01,Sidama,Central Sidama,Arbegona,ETH:798bba5f6493,1,1,1,1,1.0,0.0,1.0,1.0,10.0,0.0,14.0,1,1,0,0,0,70.0,26.01,moderate
+2025-12-01,Amhara,Awi,Guagusa shikudad,ETH:ET030907,1,1,1,1,1.0,1.0,1.0,0.0,2.0,0.0,21.0,1,1,0,0,0,75.0,25.54,moderate
+2025-12-01,Oromia,Shagar City,Gefersa Guji,ETH:2b6f662f0c5e,1,1,1,1,1.0,1.0,0.0,1.0,0.0,4.0,12.0,1,1,0,0,0,70.0,25.3,moderate
+2025-12-01,Oromia,West Arsi,Siraro,ETH:ET041701,1,1,1,1,1.0,0.0,1.0,1.0,9.0,0.0,12.0,1,1,0,0,0,70.0,25.3,moderate
+2025-12-01,South Ethiopia,Wolayita,Boloso Bombe,ETH:ET080108,1,0,1,1,1.0,0.0,1.0,1.0,9.0,0.0,12.0,1,1,0,0,0,70.0,25.3,moderate
+2025-12-01,Amhara,OROMIYA,Jile Timuga,ETH:1302cb556ee4,1,1,1,1,1.0,1.0,1.0,0.0,6.0,0.0,18.0,1,1,0,0,0,75.0,24.82,low
+2025-12-01,Oromia,Horo Gudru,Shambu Town,ETH:1aeebd0114d1,1,1,1,1,1.0,1.0,1.0,0.0,2.0,1.0,18.0,1,1,0,0,0,75.0,24.82,low
+2025-12-01,Sidama,North Sidama,Borricha,ETH:c69942659ffd,1,1,1,1,1.0,0.0,1.0,1.0,8.0,0.0,11.0,1,1,0,0,0,70.0,24.58,low
+2025-12-01,South Ethiopia,Wolayita,Sodo Zuriya,ETH:c760ee4d3e50,1,1,1,1,1.0,0.0,1.0,1.0,8.0,0.0,12.0,1,1,0,0,0,70.0,24.58,low
+2025-12-01,Amhara,North Wollo,Gidan,ETH:55d63326dc87,1,1,1,1,1.0,1.0,1.0,0.0,1.0,0.0,16.0,1,1,0,0,0,75.0,24.34,low
+2025-12-01,Somali,ERAR,Hamaro,ETH:9931f0631808,1,1,1,1,1.0,1.0,1.0,0.0,4.0,1.0,15.0,1,1,0,0,0,75.0,24.11,low
+2025-12-01,Central Ethiopia,Hadiya,Soro,ETH:ET070206,1,1,1,1,1.0,1.0,0.0,0.0,6.0,-2.0,15.0,1,1,0,0,0,55.0,24.11,low
+2025-12-01,Oromia,East Hararge,Gursuum,ETH:08971b53e9e6,1,1,1,1,1.0,1.0,1.0,1.0,0.0,0.0,14.0,1,1,0,0,0,90.0,23.87,low
+2025-12-01,Somali,Liben,Dolo-Ado,ETH:2083f1bc1156,1,1,1,1,1.0,1.0,1.0,1.0,1.0,1.0,13.0,1,1,0,0,0,90.0,23.87,low
+2025-12-01,Oromia,East Shewa,Adami Tulu Jido Kombolcha,ETH:2434deed3a8d,1,1,1,1,1.0,1.0,1.0,1.0,6.0,0.0,12.0,1,1,0,0,0,90.0,23.87,low
+2025-12-01,Oromia,West Shewa,Elu Gelan,ETH:28cd09c76798,1,1,1,1,1.0,1.0,1.0,1.0,3.0,0.0,11.0,1,1,0,0,0,90.0,23.87,low
+2025-12-01,Afar,Zone 1,Mille,ETH:2f159485cf90,1,1,1,1,1.0,1.0,0.0,1.0,5.0,-3.0,14.0,1,1,0,0,0,70.0,23.87,low
+2025-12-01,Oromia,Horo Gudru,Jima Rare,ETH:3e5235e168ba,1,1,1,1,1.0,1.0,1.0,1.0,0.0,0.0,13.0,1,1,0,0,0,90.0,23.87,low
+2025-12-01,Oromia,East Borena,Madawalabu,ETH:532f4173cd1b,1,1,1,1,1.0,1.0,1.0,1.0,4.0,0.0,12.0,1,1,0,0,0,90.0,23.87,low
+2025-12-01,Oromia,East Hararge,Midhega Tola,ETH:583a4fc9f721,1,0,1,1,1.0,0.0,0.0,1.0,,,13.0,1,1,0,0,0,50.0,23.87,low
+2025-12-01,Oromia,West Shewa,Ejere,ETH:655d570b210f,1,1,1,1,1.0,1.0,1.0,1.0,0.0,0.0,12.0,1,1,0,0,0,90.0,23.87,low
+2025-12-01,Amhara,North Shewa (AM),Morete,ETH:9247a2b45ae5,1,1,1,1,1.0,1.0,1.0,1.0,2.0,1.0,10.0,1,1,0,0,0,90.0,23.87,low
+2025-12-01,Afar,Zone 1,Kori,ETH:9477f38bc6a0,1,1,1,1,1.0,1.0,1.0,1.0,3.0,0.0,14.0,1,1,0,0,0,90.0,23.87,low
+2025-12-01,Oromia,West Shewa,Jeldu,ETH:ET040502,1,1,1,1,1.0,1.0,1.0,1.0,4.0,0.0,12.0,1,1,0,0,0,90.0,23.87,low
+2025-12-01,Oromia,North Shewa (OR),Mulo,ETH:ET040622,1,1,1,1,1.0,1.0,1.0,1.0,3.0,0.0,11.0,1,1,0,0,0,90.0,23.87,low
+2025-12-01,Oromia,East Borena,Negele Town,ETH:ET042201,1,1,1,1,1.0,1.0,0.0,1.0,7.0,-1.0,11.0,1,1,0,0,0,70.0,23.87,low
+2025-12-01,Somali,Fafan,Harshin,ETH:ET050207,1,1,1,1,1.0,0.0,0.0,1.0,,,12.0,1,1,0,0,0,50.0,23.87,low
+2025-12-01,South Ethiopia,Gamo,Kucha,ETH:ET080217,1,1,1,1,1.0,1.0,1.0,1.0,0.0,1.0,12.0,1,1,0,0,0,90.0,23.87,low
+2025-12-01,Oromia,Arsi,MUNESA,ETH:a128a738fc99,1,1,1,1,1.0,0.0,0.0,1.0,,,12.0,1,1,0,0,0,50.0,23.87,low
+2025-12-01,Central Ethiopia,Siliti,Dalocha town,ETH:aa0ae4978590,1,0,1,1,1.0,0.0,0.0,1.0,,,12.0,1,1,0,0,0,50.0,23.87,low
+2025-12-01,Oromia,West Hararge,Anchar WorHO,ETH:c9b183d534ce,1,1,1,1,1.0,1.0,1.0,1.0,7.0,1.0,12.0,1,1,0,0,0,90.0,23.87,low
+2025-12-01,Oromia,KELEM,Anfilo,ETH:cf71b7b1aee7,1,1,1,1,1.0,1.0,1.0,1.0,5.0,0.0,14.0,1,1,0,0,0,90.0,23.87,low
+2025-12-01,Oromia,West Hararge,Gelelmso Town,ETH:d9ba7095899c,1,1,1,1,1.0,1.0,1.0,1.0,1.0,0.0,12.0,1,1,0,0,0,90.0,23.87,low
+2025-12-01,South Ethiopia,Gedeo,Chorso,ETH:e8058ffc10ff,1,1,1,1,1.0,1.0,1.0,1.0,3.0,0.0,13.0,1,1,0,0,0,90.0,23.87,low
+2025-12-01,Oromia,East Hararge,Jarsoo,ETH:b0453cbefa27,4,4,2,4,1.0,0.5,0.5,0.25,2.5,0.0,25.5,4,4,0,0,0,58.75,21.72,low
+2025-12-01,Amhara,East Gojjam,Bibugn,ETH:8991d7b6a157,3,3,2,3,1.0,0.6666666666666666,1.0,0.3333333333333333,7.0,1.0,16.0,3,3,0,0,0,73.33,21.55,low
+2025-12-01,Amhara,North Wollo,Meket,ETH:07b548cf3fac,2,2,1,2,1.0,0.0,0.5,1.0,9.5,1.5,12.5,2,1,0,1,0,60.0,21.42,low
+2025-12-01,Central Ethiopia,East Guraghie,Mesikan,ETH:6aa12596ab01,3,3,2,3,1.0,1.0,1.0,0.0,2.0,0.0,15.0,3,3,0,0,0,75.0,21.31,low
+2025-12-01,Addis Ababa,Arada,Arada,ETH:3d6ff697aeb7,3,3,2,3,1.0,1.0,1.0,1.0,1.0,0.0,12.0,3,3,0,0,0,90.0,21.07,low
+2025-12-01,Amhara,North Gojjam,Debub Achefer,ETH:a0eb36d3acfa,3,3,2,3,1.0,1.0,1.0,1.0,2.0,0.0,11.0,3,3,0,0,0,90.0,21.07,low
+2025-12-01,Oromia,Maya City,Maya City,ETH:92c1accfb5a1,5,5,2,5,1.0,0.0,0.8,0.8,10.0,0.0,11.0,5,5,0,0,0,63.0,20.14,low
+2025-12-01,Oromia,Shagar City,Eka Tafo,ETH:0c96fc2f69e5,2,2,1,2,1.0,0.0,0.0,1.0,,,11.5,2,2,0,0,0,50.0,16.13,low
+2025-12-01,Amhara,North Gojjam,Semen Achefer,ETH:033b1cbf8f85,4,4,0,4,1.0,0.75,0.75,0.5,1.0,0.0,14.5,4,2,0,2,0,72.5,16.1,low
+2025-12-01,Amhara,North Shewa (AM),Angolela,ETH:7722fe2493d2,3,3,0,2,0.6666666666666666,1.0,0.6666666666666666,0.6666666666666666,5.0,0.0,12.0,3,3,0,0,0,70.0,16.07,low
+2025-12-01,Oromia,East Shewa,Boora,ETH:20df926bd5f2,3,3,1,3,1.0,0.0,1.0,1.0,9.0,0.0,12.0,3,3,0,0,0,70.0,15.83,low
+2025-12-01,Oromia,East Hararge,Gurawa,ETH:9670681bafdc,4,4,0,4,1.0,0.75,0.75,0.25,3.0,0.0,28.0,4,2,1,1,0,68.75,15.82,low
+2025-12-01,South West Ethiopia,Kefa,Sayilem,ETH:01955d264b98,1,1,0,1,1.0,0.0,1.0,0.0,12.0,0.0,46.0,1,1,0,0,0,55.0,15.06,low
+2025-12-01,Amhara,North Shewa (AM),Gishe,ETH:42038cbb00e6,3,3,0,3,1.0,0.6666666666666666,1.0,0.0,4.0,1.0,43.0,3,3,0,0,0,68.33,14.64,low
+2025-12-01,Oromia,East Wellega,Gudeya Bila,ETH:c96d2e239f22,2,2,0,2,1.0,0.0,0.0,0.5,,,17.5,2,0,0,2,0,42.5,13.96,low
+2025-12-01,Oromia,Bale,Berbere,ETH:ET041114,3,3,0,3,1.0,0.3333333333333333,0.6666666666666666,0.0,8.0,0.5,21.0,3,2,0,1,0,55.0,13.62,low
+2025-12-01,Amhara,North Wollo,Dawunt,ETH:00988b9566db,2,2,0,2,1.0,1.0,1.0,0.5,2.0,1.0,16.0,2,0,0,2,0,82.5,13.61,low
+2025-12-01,Amhara,North Shewa (AM),H/Mariam,ETH:68a19845c1c4,2,2,0,2,1.0,1.0,1.0,0.0,1.0,1.0,43.0,2,2,0,0,0,75.0,13.04,low
+2025-12-01,South Ethiopia,Gedeo,Wenago Woreda,ETH:a24f696686ce,1,1,0,1,1.0,0.0,1.0,0.0,9.0,0.0,46.0,1,1,0,0,0,55.0,12.92,low
+2025-12-01,Amhara,East Gojjam,Awabel,ETH:7a132d316598,1,1,0,1,1.0,0.0,1.0,0.0,18.0,0.0,17.0,1,1,0,0,0,55.0,12.44,low
+2025-12-01,Oromia,North Shewa (OR),Wuchale,ETH:ET040608,1,1,0,1,1.0,0.0,1.0,0.0,8.0,1.0,46.0,1,1,0,0,0,55.0,12.2,low
+2025-12-01,Sidama,East Sidama,Daye TA,ETH:baf746252a25,1,1,0,1,1.0,0.0,1.0,0.0,8.0,1.0,46.0,1,1,0,0,0,55.0,12.2,low
+2025-12-01,Benishangul Gumuz,Kamashi,Mizhiga,ETH:2eb9798cdeb5,1,1,0,1,1.0,1.0,1.0,0.0,7.0,0.0,48.0,1,1,0,0,0,75.0,11.96,low
+2025-12-01,Amhara,North Gojjam,Semen Mecha,ETH:022044a2f0f3,3,3,0,3,1.0,0.3333333333333333,1.0,1.0,8.0,1.0,13.0,3,2,0,1,0,76.67,11.95,low
+2025-12-01,Amhara,Central Gondar,West Dembia,ETH:5c3ac49afbf6,1,1,0,1,1.0,1.0,1.0,0.0,0.0,1.0,47.0,1,1,0,0,0,75.0,11.73,low
+2025-12-01,Oromia,Ilu Aba Bora,Hurumu,ETH:ET040316,1,1,0,1,1.0,1.0,1.0,0.0,3.0,0.0,47.0,1,1,0,0,0,75.0,11.73,low
+2025-12-01,Central Ethiopia,East Guraghie,Enseno,ETH:63a14ab8c875,1,1,0,1,1.0,0.0,0.0,0.0,,,46.0,1,1,0,0,0,35.0,11.49,low
+2025-12-01,Central Ethiopia,Hadiya,Ameka,ETH:ET070215,1,1,0,1,1.0,1.0,1.0,0.0,1.0,2.0,46.0,1,1,0,0,0,75.0,11.49,low
+2025-12-01,Addis Ababa,Addis Ketema,Addis Ketema,ETH:b13b57715e2f,1,1,0,1,1.0,1.0,1.0,0.0,0.0,0.0,46.0,1,1,0,0,0,75.0,11.49,low
+2025-12-01,Oromia,JIMMA,Mana,ETH:bd477a35b8af,1,1,0,1,1.0,0.0,0.0,0.0,,,46.0,1,1,0,0,0,35.0,11.49,low
+2025-12-01,Oromia,West Wellega,Leta Sibu,ETH:ET040197,1,1,0,1,1.0,0.0,1.0,0.0,10.0,0.0,36.0,1,1,0,0,0,55.0,11.25,low
+2025-12-01,Oromia,Shagar City,Kura Jida,ETH:21c1104c2114,1,1,0,1,1.0,0.0,0.0,0.0,,,43.0,1,1,0,0,0,35.0,10.77,low
+2025-12-01,Central Ethiopia,Siliti,Hulbareg,ETH:5c6c941f7516,1,1,0,1,1.0,1.0,1.0,0.0,4.0,0.0,43.0,1,1,0,0,0,75.0,10.77,low
+2025-12-01,Oromia,West Hararge,Doba WorHO,ETH:8b30ebc86653,1,1,0,1,1.0,1.0,1.0,0.0,4.0,1.0,43.0,1,1,0,0,0,75.0,10.77,low
+2025-12-01,Oromia,Arsi,TIYO,ETH:ET040816,1,1,0,1,1.0,1.0,1.0,0.0,1.0,1.0,43.0,1,1,0,0,0,75.0,10.77,low
+2025-12-01,Oromia,Arsi,GUNA,ETH:ET040819,1,1,0,1,1.0,1.0,1.0,0.0,0.0,0.0,43.0,1,1,0,0,0,75.0,10.77,low
+2025-12-01,Oromia,Shagar City,Gelan,ETH:d0aebf15f908,1,1,0,1,1.0,1.0,1.0,0.0,5.0,0.0,43.0,1,1,0,0,0,75.0,10.77,low
+2025-12-01,Oromia,North Shewa (OR),Aleltu,ETH:ET040617,2,2,0,2,1.0,1.0,1.0,1.0,5.5,0.0,13.0,2,1,0,1,0,90.0,9.63,low
+2025-12-01,Amhara,West Gojjam,Bure Town,ETH:8e44be9c543f,1,1,0,1,1.0,0.0,1.0,1.0,10.0,0.0,14.0,1,0,0,1,0,70.0,9.51,low
+2025-12-01,Amhara,West Gojjam,Jabi Tehinan,ETH:c9022199751f,4,4,0,4,1.0,0.75,1.0,0.75,1.0,0.0,14.0,4,4,0,0,0,81.25,8.98,low
+2025-12-01,Central Ethiopia,Siliti,Dalocha woreda,ETH:231bc272eac4,1,1,0,1,1.0,0.0,0.0,0.0,,,35.0,1,1,0,0,0,35.0,8.87,low
+2025-12-01,Oromia,South West Shewa,Bacho,ETH:5c0348a5d25b,1,1,0,1,1.0,1.0,1.0,0.0,1.0,0.0,35.0,1,1,0,0,0,75.0,8.87,low
+2025-12-01,Benishangul Gumuz,Metekel,Dangur,ETH:ET060201,1,1,0,1,1.0,0.0,1.0,1.0,9.0,1.0,13.0,1,0,0,1,0,70.0,8.8,low
+2025-12-01,Amhara,West Gojjam,Bure Zuria,ETH:a77c22727bb9,1,1,0,1,1.0,0.0,1.0,0.0,8.0,0.0,17.0,1,0,0,1,0,55.0,8.8,low
+2025-12-01,Tigray,Central Tigray,adwa zuria,ETH:0d681752a165,1,1,0,1,1.0,1.0,0.0,0.0,2.0,8.0,16.0,1,1,0,0,0,55.0,8.63,low
+2025-12-01,Central Ethiopia,Guraghie,Emidibr town,ETH:e2959373a295,1,1,0,1,1.0,0.0,1.0,1.0,13.0,0.0,13.0,1,1,0,0,0,70.0,8.15,low
+2025-12-01,Addis Ababa,Lideta,Lideta,ETH:a8e3c8245fda,2,2,0,2,1.0,0.5,1.0,1.0,9.5,0.0,11.5,2,2,0,0,0,80.0,7.92,low
+2025-12-01,Oromia,Shagar City,Furi,ETH:4e0c5a6ef6a4,3,3,0,3,1.0,0.3333333333333333,0.3333333333333333,1.0,1.0,0.0,12.0,3,1,2,0,0,63.33,7.74,low
+2025-12-01,Sidama,East Sidama,Chire,ETH:1e786b76cf9f,1,1,0,1,1.0,1.0,0.0,0.0,0.0,6.0,18.0,1,1,0,0,0,55.0,7.68,low
+2025-12-01,Sidama,Southern Sidama,Aleta Wondo,ETH:98abb53ca0fa,1,1,0,1,1.0,1.0,1.0,0.0,4.0,0.0,15.0,1,0,0,1,0,75.0,7.61,low
+2025-12-01,Oromia,JIMMA,Gomma,ETH:3ac54b092d71,2,2,0,2,1.0,0.5,1.0,0.5,4.5,0.0,19.5,2,2,0,0,0,72.5,7.44,low
+2025-12-01,Amhara,East Gojjam,Goncha,ETH:12debc6a70fa,1,1,0,1,1.0,1.0,1.0,1.0,2.0,1.0,10.0,1,0,0,1,0,90.0,7.37,low
+2025-12-01,Somali,Korahe,Dhoboweyn,ETH:1963e7cb5f47,1,1,0,1,1.0,1.0,1.0,1.0,1.0,0.0,10.0,1,0,0,1,0,90.0,7.37,low
+2025-12-01,Amhara,East Gojjam,Enarj Enawuga,ETH:29abd0bead86,1,1,0,1,1.0,1.0,1.0,1.0,3.0,1.0,12.0,1,0,0,1,0,90.0,7.37,low
+2025-12-01,Oromia,Shagar City,Burayu Town,ETH:63a1e4679107,1,1,0,1,1.0,0.0,0.0,1.0,,,14.0,1,0,0,1,0,50.0,7.37,low
+2025-12-01,South Ethiopia,Gamo,Arbaminch Zuria,ETH:8e95ac61ec07,1,1,0,1,1.0,1.0,1.0,1.0,7.0,0.0,14.0,1,0,0,1,0,90.0,7.37,low
+2025-12-01,Amhara,North Shewa (AM),Tarmaber,ETH:9bc8d150cb75,1,1,0,1,1.0,1.0,1.0,1.0,4.0,0.0,14.0,1,0,0,1,0,90.0,7.37,low
+2025-12-01,Oromia,East Hararge,Bedano,ETH:b66de35b86ab,1,1,0,1,1.0,1.0,1.0,1.0,0.0,1.0,12.0,1,0,0,1,0,90.0,7.37,low
+2025-12-01,Amhara,North Shewa (AM),Minjar,ETH:e2fc45ec5763,1,1,0,1,1.0,1.0,1.0,1.0,3.0,2.0,9.0,1,0,0,1,0,90.0,7.37,low
+2025-12-01,Oromia,East Hararge,Kurfa chale,ETH:edd9b9fea2f1,1,1,0,1,1.0,1.0,1.0,0.0,6.0,1.0,28.0,1,1,0,0,0,75.0,7.2,low
+2025-12-01,Tigray,Eastern Tigray,Ganta Afeshum,ETH:5bf41d5dcc58,2,2,0,2,1.0,1.0,1.0,0.0,3.0,1.0,17.5,2,2,0,0,0,75.0,6.96,low
+2025-12-01,Central Ethiopia,Yem,Yem,ETH:03a9b3e05c71,1,1,0,1,1.0,0.0,1.0,1.0,11.0,0.0,14.0,1,1,0,0,0,70.0,6.73,low
+2025-12-01,Oromia,East Hararge,Kombolchaa,ETH:9ca3056e3833,2,2,0,2,1.0,0.5,0.5,0.5,1.0,1.0,15.0,2,2,0,0,0,62.5,6.37,low
+2025-12-01,Tigray,South Eastern,Enderta,ETH:ET010602,2,2,0,2,1.0,0.5,0.5,0.5,1.0,0.0,15.0,2,2,0,0,0,62.5,6.37,low
+2025-12-01,Oromia,Arsi,LODE HETOSA,ETH:d5631e94ccb1,1,1,0,1,1.0,1.0,0.0,0.0,0.0,5.0,15.0,1,1,0,0,0,55.0,6.25,low
+2025-12-01,Amhara,Bahir Dar,Bahirdar,ETH:068e9f7dcbeb,2,1,0,2,1.0,1.0,0.5,1.0,2.0,1.5,12.0,2,2,0,0,0,80.0,6.13,low
+2025-12-01,Addis Ababa,Kolfe - Keraniyo,Kolfe Keraniyo,ETH:968c65df3c85,2,2,0,2,1.0,1.0,1.0,0.5,3.0,0.0,14.0,2,2,0,0,0,82.5,6.13,low
+2025-12-01,Amhara,South Gonder,Dera,ETH:e931a65f8511,2,2,0,2,1.0,0.5,1.0,1.0,4.5,1.0,11.0,2,2,0,0,0,80.0,6.13,low
+2025-12-01,Oromia,Shagar City,Melka Nonno,ETH:75b508cfcb66,1,1,0,1,1.0,0.0,1.0,1.0,10.0,0.0,12.0,1,1,0,0,0,70.0,6.01,low
+2025-12-01,Central Ethiopia,Siliti,West azernet,ETH:bbaca657e811,1,1,0,1,1.0,0.0,1.0,0.0,9.0,0.0,15.0,1,1,0,0,0,55.0,5.54,low
+2025-12-01,Amhara,South Gonder,Libo kemkem,ETH:703a9213f112,1,1,0,1,1.0,0.0,1.0,1.0,9.0,0.0,12.0,1,1,0,0,0,70.0,5.3,low
+2025-12-01,Sidama,North Sidama,Hawella,ETH:de69ba18bb2f,1,1,0,1,1.0,1.0,0.0,1.0,2.0,4.0,11.0,1,1,0,0,0,70.0,5.3,low
+2025-12-01,Amhara,South Wolo,Tehuledere,ETH:883d6c4c4280,1,1,0,1,1.0,1.0,1.0,0.0,3.0,1.0,19.0,1,1,0,0,0,75.0,5.06,low
+2025-12-01,Amhara,West Gondar,Metema,ETH:ET031213,1,1,0,1,1.0,1.0,1.0,0.0,0.0,0.0,18.0,1,1,0,0,0,75.0,4.82,low
+2025-12-01,Oromia,Buno Bedele,Dedesa,ETH:ET041608,1,1,0,1,1.0,0.0,0.0,0.0,,,18.0,1,1,0,0,0,35.0,4.82,low
+2025-12-01,Amhara,Awi,Fagita Lekoma,ETH:6e8cca7e8cbd,1,1,0,1,1.0,0.0,1.0,1.0,8.0,1.0,13.0,1,1,0,0,0,70.0,4.58,low
+2025-12-01,Oromia,East Hararge,Melka Belo,ETH:9db72a299e0c,1,1,0,1,1.0,0.0,0.0,0.0,,,17.0,1,1,0,0,0,35.0,4.58,low
+2025-12-01,Amhara,West Gondar,West arimachiho,ETH:25d36f55accd,1,1,0,1,1.0,1.0,1.0,0.0,4.0,2.0,16.0,1,1,0,0,0,75.0,4.34,low
+2025-12-01,Amhara,East Gojjam,Motta,ETH:3f6cb62bb4bc,1,1,0,1,1.0,1.0,1.0,0.0,2.0,0.0,16.0,1,1,0,0,0,75.0,4.34,low
+2025-12-01,South West Ethiopia,Konta,Ameya City Adiministration,ETH:cf520f793a69,1,1,0,1,1.0,1.0,1.0,0.0,2.0,1.0,16.0,1,1,0,0,0,75.0,4.34,low
+2025-12-01,Sidama,East Sidama,Hoko,ETH:30d65da00e5e,1,1,0,1,1.0,0.0,0.0,0.0,,,15.0,1,1,0,0,0,35.0,4.11,low
+2025-12-01,Oromia,Borena,Elwaye,ETH:4278fdea0a08,1,1,0,1,1.0,1.0,0.0,0.0,7.0,-1.0,15.0,1,1,0,0,0,55.0,4.11,low
+2025-12-01,Amhara,East Gojjam,Hulteeju enesie,ETH:4ea71e18c898,1,1,0,1,1.0,1.0,1.0,0.0,2.0,0.0,15.0,1,0,1,0,0,75.0,4.11,low
+2025-12-01,Sidama,East Sidama,Bona Zuria,ETH:b2f43671815b,1,1,0,1,1.0,0.0,0.0,0.0,,,15.0,1,0,1,0,0,35.0,4.11,low
+2025-12-01,Tigray,North Western,Laelay Adiabo,ETH:c37e9708e47b,1,1,0,1,1.0,1.0,1.0,0.0,5.0,0.0,15.0,1,1,0,0,0,75.0,4.11,low
+2025-12-01,Sidama,East Sidama,Bensa,ETH:d032c6f6f367,1,1,0,1,1.0,1.0,1.0,0.0,3.0,0.0,15.0,1,1,0,0,0,75.0,4.11,low
+2025-12-01,Oromia,East Borena,Liban,ETH:d0af0a285af6,1,1,0,1,1.0,0.0,0.0,0.0,,,15.0,1,1,0,0,0,35.0,4.11,low
+2025-12-01,Oromia,West Wellega,Bodji Dirmaji,ETH:103a2f5ca671,1,1,0,1,1.0,1.0,1.0,1.0,2.0,1.0,11.0,1,1,0,0,0,90.0,3.87,low
+2025-12-01,Central Ethiopia,Hadiya,East Badewacho,ETH:25db93d79901,1,1,0,1,1.0,1.0,1.0,1.0,0.0,0.0,12.0,1,1,0,0,0,90.0,3.87,low
+2025-12-01,Oromia,Borena,Moyalee,ETH:2fc744ae5da1,1,1,0,1,1.0,1.0,1.0,1.0,4.0,1.0,12.0,1,1,0,0,0,90.0,3.87,low
+2025-12-01,Tigray,Central Tigray,Naeder,ETH:445ff51cfd7f,1,1,0,1,1.0,1.0,1.0,1.0,2.0,1.0,14.0,1,1,0,0,0,90.0,3.87,low
+2025-12-01,Oromia,East Hararge,Haromaya,ETH:4604b9aafee8,1,1,0,1,1.0,1.0,0.0,1.0,5.0,-3.0,12.0,1,1,0,0,0,70.0,3.87,low
+2025-12-01,Sidama,North Sidama,Gorche,ETH:47372f770d78,1,1,0,1,1.0,0.0,0.0,1.0,,,13.0,1,1,0,0,0,50.0,3.87,low
+2025-12-01,Oromia,East Wellega,Wayu Tuqa,ETH:4a7a9b70ccf8,1,1,0,1,1.0,0.0,0.0,1.0,,,14.0,1,1,0,0,0,50.0,3.87,low
+2025-12-01,Oromia,KELEM,Lalo Kile,ETH:505706c9acae,1,1,0,1,1.0,1.0,1.0,1.0,2.0,0.0,11.0,1,1,0,0,0,90.0,3.87,low
+2025-12-01,Somali,DAWA,Moyale,ETH:684eceef135f,1,0,0,1,1.0,1.0,1.0,1.0,1.0,0.0,11.0,1,1,0,0,0,90.0,3.87,low
+2025-12-01,Amhara,Central Gondar,Lay Armachiho,ETH:7420d2c9e571,1,1,0,1,1.0,1.0,1.0,1.0,3.0,0.0,12.0,1,1,0,0,0,90.0,3.87,low
+2025-12-01,Oromia,Woliso Town,Woliso Town,ETH:808ac43b13f4,1,1,0,1,1.0,1.0,0.0,1.0,7.0,-1.0,11.0,1,1,0,0,0,70.0,3.87,low
+2025-12-01,Central Ethiopia,Kebena Special,Kebena Special Woreda,ETH:8ad4036222ac,1,1,0,1,1.0,1.0,0.0,1.0,2.0,-1.0,12.0,1,1,0,0,0,70.0,3.87,low
+2025-12-01,Oromia,East Wellega,Boneya Boshe,ETH:ET040205,1,1,0,1,1.0,1.0,1.0,1.0,3.0,0.0,10.0,1,1,0,0,0,90.0,3.87,low
+2025-12-01,Oromia,Borena,Miyo,ETH:ET041216,1,1,0,1,1.0,1.0,1.0,1.0,7.0,1.0,12.0,1,1,0,0,0,90.0,3.87,low
+2025-12-01,Somali,Korahe,Shilabo,ETH:ET050503,1,1,0,1,1.0,1.0,1.0,1.0,4.0,1.0,14.0,1,1,0,0,0,90.0,3.87,low
+2025-12-01,Benishangul Gumuz,Assosa,Sherkole,ETH:ET060304,1,1,0,1,1.0,0.0,0.0,1.0,,,12.0,1,1,0,0,0,50.0,3.87,low
+2025-12-01,Oromia,Arsi,DEKSIS,ETH:a174dd07a002,1,1,0,1,1.0,1.0,1.0,1.0,4.0,0.0,12.0,1,1,0,0,0,90.0,3.87,low
+2025-12-01,Oromia,Bale,Dellomennaa,ETH:a51b04736859,1,1,0,1,1.0,1.0,1.0,1.0,3.0,2.0,14.0,1,1,0,0,0,90.0,3.87,low
+2025-12-01,Central Ethiopia,Guraghie,Enor enor meger,ETH:bcc658d42e5f,1,1,0,1,1.0,0.0,0.0,1.0,,,12.0,1,1,0,0,0,50.0,3.87,low
+2025-12-01,Dire Dawa,Dire Dawa,Dire Dawa Operational Woreda,ETH:c5f93dad7829,1,1,0,1,1.0,1.0,1.0,1.0,2.0,0.0,12.0,1,1,0,0,0,90.0,3.87,low
+2025-12-01,Addis Ababa,Bole,Bole,ETH:c97512535541,1,1,0,1,1.0,1.0,1.0,1.0,1.0,0.0,11.0,1,1,0,0,0,90.0,3.87,low
+2025-12-01,Somali,ERAR,Salahad,ETH:cf6e8242bfde,1,1,0,1,1.0,0.0,0.0,1.0,,,10.0,1,1,0,0,0,50.0,3.87,low
+2025-12-01,Oromia,Ilu Aba Bora,Allee,ETH:d85588c4cba4,1,1,0,1,1.0,1.0,1.0,1.0,2.0,1.0,12.0,1,1,0,0,0,90.0,3.87,low
+2025-12-01,Amhara,South Wolo,Dessiezuria,ETH:eea7d35c3c10,1,1,0,1,1.0,1.0,1.0,1.0,4.0,0.0,11.0,1,1,0,0,0,90.0,3.87,low
+2025-12-01,Amhara,East Gojjam,Mesikan,ETH:fb4ceb0edfab,1,1,0,1,1.0,1.0,1.0,1.0,1.0,0.0,14.0,1,0,1,0,0,90.0,3.87,low
